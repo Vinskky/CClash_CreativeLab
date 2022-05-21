@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UI/CupraClash_Principal.unity
+    path: Assets/Scenes/UI/UI_Main.unity
     guid: bc15da49dc7637242a9e2bedc94cfaee
   - enabled: 1
     path: Assets/Scenes/UI/UI_Map.unity
     guid: 164d8c732fcad204d80f29cd54db85c1
+  - enabled: 1
+    path: Assets/Scenes/UI/UI_Sparks.unity
+    guid: 06cc20bc8cb40014a86adcc920cc2310
+  - enabled: 1
+    path: Assets/Scenes/UI/UI_Tribu.unity
+    guid: 4c26271e24cc964419df833ed021b3ba
   m_configObjects: {}
