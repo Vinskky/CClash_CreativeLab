@@ -8,6 +8,7 @@ public class UI_MapMenu : MonoBehaviour
 {
     public VideoPlayer video;
     public GameObject objVideo;
+    public GameObject objVideoViewer;
     public GameObject objMap;
     public GameObject objGPS;
 
@@ -26,6 +27,7 @@ public class UI_MapMenu : MonoBehaviour
         video = GetComponent<VideoPlayer>();
 
         objGPS.SetActive(false);
+        objVideoViewer.SetActive(false);
         objVideo.SetActive(true);
         objMap.SetActive(true);
         //video.GetComponent<Canvas>().gameObject.SetActive(true);
@@ -36,6 +38,7 @@ public class UI_MapMenu : MonoBehaviour
     public void SwitchToGPS()
     {
         objGPS.SetActive(true);
+        objVideoViewer.SetActive(true);
         objVideo.SetActive(false);
         objMap.SetActive(false);
     }
