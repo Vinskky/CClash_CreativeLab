@@ -1,50 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.SceneManagement;
 
 public class UI_MainMenu : MonoBehaviour
 {
-    public GameObject test;
-    bool testFlag = false;
-    public void SwitchToSparksMenu()
+    
+    public void GoToMainMenu()
     {
-        //2 == sparks menu
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("UI_MainMenu");
+    }
+    public void GoToCupraClash()
+    {
+        SceneManager.LoadScene("UI_CupraClash");
     }
 
-    public void SwitchToMapMenu()
+    public void GoToMisiones()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("UI_Misiones");
     }
 
-    public void SwitchToTribeMenu()
+    public void GoToTribu()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("UI_Tribu");
     }
 
-    public void BackToMainMenu()
+    public void GoToProfile()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("UI_Profile");
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            testFlag = !testFlag;
-
-            if(testFlag)
-            {
-                test.GetComponent<Renderer>().material.color = Color.red;
-
-            }
-            else
-            {
-                test.GetComponent<Renderer>().material.color = Color.blue;
-
-            }
-        }
+        
     }
 }
