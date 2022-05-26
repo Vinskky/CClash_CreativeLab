@@ -208,7 +208,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1258723598}
         m_TargetAssemblyTypeName: UI_MainMenu, Assembly-CSharp
-        m_MethodName: GoToProfile
+        m_MethodName: GoToCupraClash
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -655,7 +655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b23afd8dc7ef86e4ab309890c21c9d5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 1627747929}
 --- !u!1 &1398573858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,7 +1167,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1258723598}
         m_TargetAssemblyTypeName: UI_MainMenu, Assembly-CSharp
-        m_MethodName: GoToCupraClash
+        m_MethodName: GoToProfile
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

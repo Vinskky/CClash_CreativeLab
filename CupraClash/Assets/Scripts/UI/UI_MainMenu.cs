@@ -30,8 +30,5 @@ public class UI_MainMenu : MonoBehaviour
         SceneManager.LoadScene("UI_Profile");
     }
 
-    private void Update()
-    {
-        
-    }
+  
 }
