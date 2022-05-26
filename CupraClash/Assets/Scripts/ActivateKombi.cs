@@ -4,10 +4,19 @@ using UnityEngine;
 
 public class ActivateKombi : MonoBehaviour
 {
+    static bool display1 = false;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        for (int i = 1; i < Display.displays.Length; i++)
+       
+
+        if (Display.displays.Length > 1 && !display1)
+        {
+            Display.displays[1].Activate();
+            display1 = true;
+        }
+        /*for (int i = 1; i < Display.displays.Length; i++)
         {
             
             if(i > 1)
@@ -18,7 +27,7 @@ public class ActivateKombi : MonoBehaviour
             {
                 Display.displays[i].Activate();
             }
-        }
+        }*/
     }
 
 }
