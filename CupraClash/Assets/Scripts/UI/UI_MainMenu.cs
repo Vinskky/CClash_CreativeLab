@@ -35,6 +35,11 @@ public class UI_MainMenu : MonoBehaviour
         SceneManager.LoadScene("UI_AlessandroChat");
     }
 
+    public void GoToGeneralChat()
+    {
+        SceneManager.LoadScene("UI_ChatGeneral");
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Q))

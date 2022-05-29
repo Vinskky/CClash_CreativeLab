@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI/UI_AlessandroChat.unity
     guid: 59fb3a1964edc14498a437de9ece58ab
+  - enabled: 1
+    path: Assets/Scenes/UI/UI_ChatGeneral.unity
+    guid: 745e79ec689f72448973d161c1ba75a0
   m_configObjects: {}
