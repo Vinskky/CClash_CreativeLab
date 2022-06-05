@@ -9,6 +9,7 @@ public class UI_MainMenu : MonoBehaviour
     public GameObject panelMisioncumplida;
     public GameObject panelMision;
 
+
     public void OpenPopupRecompensa()
     {
         recibirRecompensa.SetActive(true);
@@ -57,7 +58,7 @@ public class UI_MainMenu : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Q))
+         if (Input.GetKeyDown(KeyCode.Q))
         {
             //Popup Trucada
         }
@@ -65,11 +66,7 @@ public class UI_MainMenu : MonoBehaviour
         {
             //Canvi Escena trucada
             SceneManager.LoadScene("UI_Calling");
-        }
-        else if (Input.GetKeyDown(KeyCode.E))
-        {
-            //Popup Noti recarga
-        }
+        }                  
         else if (Input.GetKeyDown(KeyCode.R))
         {
             //Canvi Escena Sparks
