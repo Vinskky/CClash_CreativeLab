@@ -5,7 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class UI_MainMenu : MonoBehaviour
 {
-    
+    public GameObject recibirRecompensa;
+    public GameObject panelMisioncumplida;
+    public GameObject panelMision;
+
+    public void OpenPopupRecompensa()
+    {
+        recibirRecompensa.SetActive(true);
+    }
+    public void ClosePopupRecompensa()
+    {
+        recibirRecompensa.SetActive(false);
+        panelMisioncumplida.SetActive(true);
+        panelMision.SetActive(false);
+
+
+    }
     public void GoToMainMenu()
     {
         SceneManager.LoadScene("UI_MainMenu");
