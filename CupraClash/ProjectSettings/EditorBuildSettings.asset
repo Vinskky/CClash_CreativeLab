@@ -24,12 +24,15 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/UI_Calling.unity
     guid: dee57f30982d0184ea430fecf409e742
   - enabled: 1
-    path: Assets/Scenes/UI/UI_SparkExchange.unity
-    guid: 7097972e75a0648419902545eb88f2ed
-  - enabled: 1
     path: Assets/Scenes/UI/UI_AlessandroChat.unity
     guid: 59fb3a1964edc14498a437de9ece58ab
   - enabled: 1
+    path: Assets/Scenes/UI/UI_SparkExchange.unity
+    guid: 7097972e75a0648419902545eb88f2ed
+  - enabled: 1
     path: Assets/Scenes/UI/UI_ChatGeneral.unity
     guid: 745e79ec689f72448973d161c1ba75a0
+  - enabled: 1
+    path: Assets/Scenes/UI/UI_TribuProfile.unity
+    guid: 8b1a15e4d8cc3024a8036f9ab65cd7a4
   m_configObjects: {}

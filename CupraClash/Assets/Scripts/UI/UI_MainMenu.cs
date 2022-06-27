@@ -56,6 +56,11 @@ public class UI_MainMenu : MonoBehaviour
         SceneManager.LoadScene("UI_ChatGeneral");
     }
 
+    public void GoToTribuProfile()
+    {
+        SceneManager.LoadScene("UI_TribuProfile");
+    }
+
     private void Update()
     {
          if (Input.GetKeyDown(KeyCode.Q))
