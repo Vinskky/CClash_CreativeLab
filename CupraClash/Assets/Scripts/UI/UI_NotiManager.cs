@@ -8,6 +8,13 @@ public class UI_NotiManager : MonoBehaviour
     public Animator animationBateriabaja;
     public Animator animationCargando;
     public Animator animationMisionCumplida;
+    public Animator animationNuevoUI;
+    public Animator animationLlamada;
+    public Animator animationCogerLlamada;
+
+
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +23,13 @@ public class UI_NotiManager : MonoBehaviour
     }
     public void GoToMisiones()
     {
+
         SceneManager.LoadScene("UI_Misiones");
+    }
+    public void GoToCalling()
+    {
+        animationCogerLlamada.SetTrigger("CogerLlamadaTrigger");
+        //SceneManager.LoadScene("UI_Calling");
     }
 
     // Update is called once per frame
@@ -38,10 +51,15 @@ public class UI_NotiManager : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
-                //Popup Noti cargando
-                animationMisionCumplida.SetTrigger("NotiTrigger");
+                //Popup Noti mision cumplida
+                animationNuevoUI.SetTrigger("NotiTrigger");
 
             }
-        }
+        }if (Input.GetKeyDown(KeyCode.W))
+            animationMisionCumplida.SetTrigger("NotiTrigger");
+
+        if (Input.GetKeyDown(KeyCode.Q))
+            animationLlamada.SetTrigger("LlamadaTrigger");
+
     }
 }

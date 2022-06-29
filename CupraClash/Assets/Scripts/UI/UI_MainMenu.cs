@@ -65,12 +65,13 @@ public class UI_MainMenu : MonoBehaviour
     {
          if (Input.GetKeyDown(KeyCode.Q))
         {
-            //Popup Trucada
+            //SceneManager.LoadScene("UI_Calling");
+            //Q para noti Trucada, W para noti de mision, E1 noti bateria baja, E2 noti cargando, E3 noti recuperar zona
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
             //Canvi Escena trucada
-            SceneManager.LoadScene("UI_Calling");
+           // SceneManager.LoadScene("UI_Calling");
         }                  
         else if (Input.GetKeyDown(KeyCode.R))
         {
