@@ -25,8 +25,15 @@ public class UI_NotiManager : MonoBehaviour
     {
 
         SceneManager.LoadScene("UI_Misiones");
+
     }
-    public void GoToCalling()
+    public void GoToSpark()
+    {
+
+        SceneManager.LoadScene("UI_SparkExchanxge");
+        }
+
+        public void GoToCalling()
     {
         animationCogerLlamada.SetTrigger("CogerLlamadaTrigger");
         //SceneManager.LoadScene("UI_Calling");

@@ -76,7 +76,7 @@ public class UI_MainMenu : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.R))
         {
             //Canvi Escena Sparks
-            SceneManager.LoadScene("UI_SparkExchange");
+            //SceneManager.LoadScene("UI_SparkExchange");
         }
         else if (Input.GetKeyDown(KeyCode.T))
         {
