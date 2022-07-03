@@ -9,6 +9,8 @@ public class UI_SparksManager : MonoBehaviour
     [SerializeField] public TextMeshProUGUI totalSparks;
     [SerializeField] public TextMeshProUGUI currentSparks;
     [SerializeField] public TextMeshProUGUI sparksToDefeat;
+    [SerializeField] private GameObject whiteSparks;
+    [SerializeField] private GameObject orangeSparks;
 
 
     public void PlusButton()
@@ -54,6 +56,9 @@ public class UI_SparksManager : MonoBehaviour
             totalSparks.text = tmpTotalSparks.ToString();
 
             currentSparks.text = "0";
+
+            whiteSparks.SetActive(false);
+            orangeSparks.SetActive(true);
         }
         else if(currentSparksValue < defeatValue)
         {

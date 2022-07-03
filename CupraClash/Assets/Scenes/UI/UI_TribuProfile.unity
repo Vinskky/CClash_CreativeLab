@@ -1137,6 +1137,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+--- !u!1 &1505153275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1402880277116432908, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 1505153274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1505153276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7999889808846688235, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 1505153274}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1651891673 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4037128137071537264, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}
@@ -1794,5 +1804,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4037128137071537278, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}
+      propertyPath: VideoAtoB
+      value: 
+      objectReference: {fileID: 1505153275}
+    - target: {fileID: 4037128137071537278, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}
+      propertyPath: VideoLoop
+      value: 
+      objectReference: {fileID: 1505153276}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}

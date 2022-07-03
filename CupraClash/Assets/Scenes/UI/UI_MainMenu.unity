@@ -181,6 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Ui2: {fileID: 1209505737}
   mainUi: {fileID: 1817169231}
+  kombiYellow: {fileID: 246266746}
+  kombiRed: {fileID: 202586777}
 --- !u!1 &44724482
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,6 +264,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44724482}
   m_CullTransparentMesh: 1
+--- !u!1 &122996425 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7999889808846688235, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 188844045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &188844045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -323,6 +330,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+--- !u!1 &202586777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7982752250309524645, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 188844045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &229706223
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +468,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229706223}
   m_CullTransparentMesh: 1
+--- !u!1 &246266746 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7999889808548779853, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 188844045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &357094760
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,6 +539,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &414675286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1402880277116432908, guid: cbd9406dc5607474f93bee8aa112ec1f, type: 3}
+  m_PrefabInstance: {fileID: 188844045}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &727366669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,5 +1479,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4037128137071537278, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}
+      propertyPath: VideoAtoB
+      value: 
+      objectReference: {fileID: 414675286}
+    - target: {fileID: 4037128137071537278, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}
+      propertyPath: VideoLoop
+      value: 
+      objectReference: {fileID: 122996425}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34911dc94f7c36a48b5062a20d01e25b, type: 3}

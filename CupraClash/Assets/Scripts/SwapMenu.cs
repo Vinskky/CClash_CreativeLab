@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SwapMenu : MonoBehaviour
 {
-    public GameObject Ui2;
-    public GameObject mainUi;
+    [SerializeField]private GameObject Ui2;
+    [SerializeField] private GameObject mainUi;
+    [SerializeField] private GameObject kombiYellow;
+    [SerializeField] private GameObject kombiRed;
     private bool test = false;
 
     void Update()
@@ -17,11 +19,15 @@ public class SwapMenu : MonoBehaviour
             {
                 Ui2.SetActive(true);
                 mainUi.SetActive(false);
+                kombiRed.SetActive(true);
+                kombiYellow.SetActive(false);
             }
             else
             {
                 Ui2.SetActive(false);
                 mainUi.SetActive(true);
+                kombiRed.SetActive(false);
+                kombiYellow.SetActive(true);
             }
         }
     }

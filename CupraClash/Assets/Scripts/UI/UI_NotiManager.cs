@@ -12,7 +12,8 @@ public class UI_NotiManager : MonoBehaviour
     public Animator animationLlamada;
     public Animator animationCogerLlamada;
 
-
+    [SerializeField] private GameObject VideoAtoB;
+    [SerializeField] private GameObject VideoLoop;
    
 
 
@@ -30,13 +31,19 @@ public class UI_NotiManager : MonoBehaviour
     public void GoToSpark()
     {
 
-        SceneManager.LoadScene("UI_SparkExchanxge");
-        }
+        SceneManager.LoadScene("UI_SparkExchange");
+    }
 
         public void GoToCalling()
     {
         animationCogerLlamada.SetTrigger("CogerLlamadaTrigger");
         //SceneManager.LoadScene("UI_Calling");
+    }
+
+    public void SwapKombiVideo()
+    {
+        VideoLoop.SetActive(false);
+        VideoAtoB.SetActive(true);
     }
 
     // Update is called once per frame
